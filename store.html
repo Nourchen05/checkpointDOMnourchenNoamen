@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>The Generics | Store</title>
+    <meta name="description" content="This is the description" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+      integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+      crossorigin="anonymous" />
+    <script src="store.js" async></script>
+  </head>
+  <body>
+    <header class="main-header">
+        <!---------------NavBar---------------------------->
+      <nav class="main-nav nav">
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="store.html">STORE</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+        </ul>
+      </nav>
+      <h1 class="band-name band-name-large">The Generics</h1>
+    </header>
+
+    <section class="container content-section">
+      <h2 class="section-header">MUSIC</h2>
+      <div class="shop-items">
+        <div class="shop-item">
+          <span class="shop-item-title">Album 1</span>
+          <img class="shop-item-image" src="Album 1.png" />
+          <div class="shop-item-details">
+            <span class="shop-item-price">$12.99</span>
+            <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+          </div>
+        </div>
+        <div class="shop-item">
+          <span class="shop-item-title">Album 2</span>
+          <img class="shop-item-image" src="Album 2.png" />
+          <div class="shop-item-details">
+            <span class="shop-item-price">$14.99</span>
+            <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+          </div>
+        </div>
+        <div class="shop-item">
+          <span class="shop-item-title">Album 3</span>
+          <img class="shop-item-image" src="Album 3.png" />
+          <div class="shop-item-details">
+            <span class="shop-item-price">$9.99</span>
+            <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+          </div>
+        </div>
+        <div class="shop-item">
+          <span class="shop-item-title">Album 4</span>
+          <img class="shop-item-image" src="Album 4.png" />
+          <div class="shop-item-details">
+            <span class="shop-item-price">$19.99</span>
+            <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="container content-section">
+      <h2 class="section-header">MERCH</h2>
+      <div class="shop-items">
+        <div class="shop-item">
+          <span class="shop-item-title">T-Shirt</span>
+          <img class="shop-item-image" src="Shirt.png" />
+          <div class="shop-item-details">
+            <span class="shop-item-price">$19.99</span>
+            <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+          </div>
+        </div>
+        <div class="shop-item">
+          <span class="shop-item-title">Coffee Cup</span>
+          <img class="shop-item-image" src="Cofee.png" />
+          <div class="shop-item-details">
+            <span class="shop-item-price">$6.99</span>
+            <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="container content-section">
+      <h2 class="section-header">CART</h2>
+      <div class="cart-row">
+        <span class="cart-item cart-header cart-column">ITEM</span>
+        <span class="cart-price cart-header cart-column">PRICE</span>
+        <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+      </div>
+      <div class="cart-items"></div>
+      <div class="cart-total">
+        <strong class="cart-total-title">Total</strong>
+        <span class="cart-total-price">$0</span>
+      </div>
+      <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+    </section>
+    
+    </body>
+</html>
